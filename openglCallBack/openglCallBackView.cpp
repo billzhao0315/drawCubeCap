@@ -14,11 +14,12 @@
 #include "math.h"
 #include <vector>
 
-#include "glm.hpp"
-#include "vec3.hpp"
-#include "vec4.hpp"
-#include "mat4x4.hpp"
-#include "gtc/matrix_transform.hpp"
+#include "..//dependence//glm//glm.hpp"
+#include "..//dependence//glm//vec3.hpp"
+#include "..//dependence//glm//vec4.hpp"
+#include "..//dependence//glm//mat4x4.hpp"
+#include "..//dependence//glm//gtc//matrix_transform.hpp"
+
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
